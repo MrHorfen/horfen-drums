@@ -1,0 +1,87 @@
+{
+  "ckpt": "./horfen_drums_hybrid_best.pt",
+  "val_ratio": 0.2,
+  "seed": 42,
+  "grid": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "per_class_thresholds": {
+    "kick": 0.7,
+    "snare": 0.65,
+    "hihat_closed": 0.65,
+    "hihat_open": 0.6,
+    "tom_high": 0.5,
+    "tom_mid": 0.65,
+    "tom_low": 0.6,
+    "crash": 0.6,
+    "ride": 0.65
+  },
+  "per_class_summary": {
+    "kick": {
+      "best_th": 0.7,
+      "best_f1": 0.4127,
+      "f1_at_05": 0.3885,
+      "f1_at_70": 0.4127
+    },
+    "snare": {
+      "best_th": 0.65,
+      "best_f1": 0.3883,
+      "f1_at_05": 0.3712,
+      "f1_at_70": 0.3852
+    },
+    "hihat_closed": {
+      "best_th": 0.65,
+      "best_f1": 0.3518,
+      "f1_at_05": 0.3343,
+      "f1_at_70": 0.3507
+    },
+    "hihat_open": {
+      "best_th": 0.6,
+      "best_f1": 0.2527,
+      "f1_at_05": 0.2433,
+      "f1_at_70": 0.2312
+    },
+    "tom_high": {
+      "best_th": 0.5,
+      "best_f1": 0.1208,
+      "f1_at_05": 0.1208,
+      "f1_at_70": 0.0608
+    },
+    "tom_mid": {
+      "best_th": 0.65,
+      "best_f1": 0.2643,
+      "f1_at_05": 0.2532,
+      "f1_at_70": 0.2271
+    },
+    "tom_low": {
+      "best_th": 0.6,
+      "best_f1": 0.2668,
+      "f1_at_05": 0.2561,
+      "f1_at_70": 0.2462
+    },
+    "crash": {
+      "best_th": 0.6,
+      "best_f1": 0.3022,
+      "f1_at_05": 0.2907,
+      "f1_at_70": 0.2759
+    },
+    "ride": {
+      "best_th": 0.65,
+      "best_f1": 0.2632,
+      "f1_at_05": 0.2512,
+      "f1_at_70": 0.2553
+    }
+  }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.wav
+*.mp3
+deliverable/
+output/
+*.mid
+*.log
+.venv/
+.env
