@@ -112,3 +112,20 @@ Training scripts, training data, data mixtures and hyper-parameters are intentio
 Source-available, **not OSI open source**. Commercial use is prohibited. See [LICENSE](LICENSE).
 
 商业授权请联系作者。/ For commercial licensing, contact the author.
+
+<br>
+
+## 第三方依赖与许可 / Third-Party Dependencies
+
+本仓库的模型定义、推理代码与权重以 PolyForm Noncommercial 1.0.0 授权。下列运行依赖**不在本仓库内**，由用户通过 pip 自行安装，各自适用其原有许可。
+
+| 组件 | 许可 |
+|---|---|
+| PyTorch (`torch`) | BSD-3-Clause |
+| librosa | ISC |
+| pretty_midi | 见其官方仓库 LICENSE |
+| NumPy | BSD-3-Clause |
+
+本仓库不分发、不打包上述组件，也不包含任何第三方源码。
+
+All model code and weights here are licensed under PolyForm Noncommercial 1.0.0. The runtime dependencies below are **not bundled**; users install them via pip and each remains under its own license. No third-party source code is included in this repository.
